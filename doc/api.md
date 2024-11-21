@@ -35,7 +35,7 @@ When the Joyride extension has activated it has the following API:
    * Returns the value of a Joyride [`when` clause context](#when-clause-context)
    * Returns undefined for non-existing `context-key`s
 
-You reach the API through the `ezports` field on the Joyride extension:
+You reach the API through the `exports` field on the Joyride extension:
 
 ``` js
 const joyrideExtension = vscode.extensions.getExtension("betterthantomorrow.joyride");
